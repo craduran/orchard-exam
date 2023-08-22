@@ -22,7 +22,7 @@ module.exports = {
         },
         extend: {
             colors: {
-                red: '#CF1430'
+                darkred: '#CF1430'
             },
         },
     },
