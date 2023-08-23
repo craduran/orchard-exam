@@ -4,7 +4,7 @@
 - TailwindCSS: I used tailwind because it's light-weight, it only builds the used classes.
 
 # Disclaimer
-- I tried to to it pixel perfect, I even customized some spacing, but I can't see extra light fonts on assets that's why I just used the light one.
+- I tried to do it pixel perfect, I even customized some spacing, but I can't see extra light fonts on assets that's why I just used the light one.
 
 - for SEO, we need to have SSR in here like express.
 
