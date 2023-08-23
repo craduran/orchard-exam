@@ -1,3 +1,13 @@
+# Reasons why I chose this stack
+- Webpack: I am more comfortable working with webpack since I'm using react. Webpact-React has a wide dev community therefore, a better debugging.
+- React: I am currently more well-versed on react now so I used it.
+- TailwindCSS: I used tailwind because it's light-weight, it only builds the used classes.
+
+# Disclaimer
+- I tried to to it pixel perfect, I even customized some spacing, but I can't see extra light fonts on assets that's why I just used the light one.
+
+- for SEO, we need to have SSR in here like express.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

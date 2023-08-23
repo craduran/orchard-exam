@@ -19,16 +19,16 @@ export const MainArticle: React.FC = () => {
                     <ImageArticle alt='Asparagus Image' fullImage={AsparagusImgFull} className='w-full py-3' previewImage={AsparagusImg} />
                 </div>
                 <div className='px-3 py-3'>
-                    <h1 className='text-3xl border-b border-b-white pb-4'>ANSWER YOUR BODY'S NEEDS</h1>
-                    <p className='pt-8'>
+                    <h1 className='text-2xl border-b border-b-white pb-4 font-primary font-light'>ANSWER YOUR BODY'S NEEDS</h1>
+                    <p className='pt-8-1/2 font-primary font-light text-lg'>
                         The way ingredients are sourced affects the way we nourish our bodies. Author Mark Schatzer
                         believes our body naturally develops an appetite for the foods and nutrients it needs
                         to be healthy, but the artificial flavorings are getting in the way. This can be reversed
                         by focusing on high-quality ingredients and being mindful as you appetite guides you to
                         consume according to your body's needs.
                     </p>
-                    <h2 className='text-darkred pt-16'>BE MINDFUL</h2>
-                    <p className='pt-4'>
+                    <h2 className='text-darkred pt-10 font-primary font-semibold'>BE MINDFUL</h2>
+                    <p className='pt-4 font-primary font-semibold text-lg'>
                         Sourcing local or organic food is a good way to start being more mindful about what you're cooking and eating.
                     </p>
                 </div>

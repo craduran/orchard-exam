@@ -11,13 +11,12 @@ interface Props {
 export const ArticlePreview: React.FC<Props> = ({title, description, readMoreLink, image} : Props) => {
     return (
         <section className='px-3'>
-            {/* <img className={`w-full border-b-4 border-b-darkred`} src={thumbnailSrc} alt={thumbnailAlt} /> */}
             {image}            
-            <h4 className={`pt-8 pb-4 font-semibold text-lg`}>{title}</h4>
-            <p className={`pb-8 font-light`}>
+            <h4 className={`pt-8 pb-4 font-semibold text-base font-primary`}>{title}</h4>
+            <p className={`pb-6 font-light font-primary leading-7`}>
                 {description}
             </p>
-            <a href={readMoreLink ?? '#'} className={`border-b py-2 font-semibold border-b-darkred`}>READ MORE</a>
+            <a onClick={() => {console.log(readMoreLink)}} className={`cursor-pointer border-b py-2 font-semibold border-b-darkred font-primary`}>READ MORE</a>
         </section>
     );
 }

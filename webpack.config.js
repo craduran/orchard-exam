@@ -8,6 +8,7 @@ module.exports = (env, argv) => {
         output: {
             path: path.resolve(__dirname, 'dist'),
             filename: `[name].[contenthash]-${Date.now()}.js`,
+            clean: true
         },
         devServer: {
             static: {
@@ -30,18 +31,22 @@ module.exports = (env, argv) => {
                     exclude: /node_modules/,
                 },
                 {
-                    test: /\.(txt|png|woff|woff2|eot|ttf|svg|jpe?g)$/, // to import images and fonts
+                    test: /\.(txt|png|svg|jpe?g)$/, // to import images and fonts
                     loader: "url-loader",
                     options: { limit: false },
+                },
+                {
+                    test: /\.(woff|woff2|eot|ttf|otf)$/i,
+                    type: 'asset/resource',
                 },
             ],
         },
         plugins: [
             new HtmlWebpackPlugin({
-              template: "public/index.html", // to import index.html file inside index.js
-              templateParameters: {
-                  PUBLIC_URL: '.',
-              },
+                template: "public/index.html", // to import index.html file inside index.js
+                templateParameters: {
+                    PUBLIC_URL: '.',
+                },
             }),
             new CopyPlugin({
                 patterns: [
