@@ -5,8 +5,9 @@
 
 # Disclaimer
 - I tried to do it pixel perfect, I even customized some spacing, but I can't see extra light fonts on assets that's why I just used the light one.
-
 - for SEO, we need to have SSR in here like express.
+- I used react's default favicon as there's no favicon on the assets folder :D
+- Uploaded this on [https://clint-orchard-exam.netlify.app/](https://github.com/facebook/create-react-app) to check if it's built properly.
 
 # Getting Started with Create React App
 
