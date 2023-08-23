@@ -51,6 +51,10 @@ module.exports = (env, argv) => {
             new CopyPlugin({
                 patterns: [
                     { from: "public/robots.txt", to: "robots.txt" },
+                    { from: "public/favicon.ico", to: "favicon.ico" },
+                    { from: "public/manifest.json", to: "manifest.json" },
+                    { from: "public/logo192.png", to: "logo192.png" },
+                    { from: "public/logo512.png", to: "logo512.png" },
                 ],
             }),
 
