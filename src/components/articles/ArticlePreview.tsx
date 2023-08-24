@@ -10,7 +10,7 @@ interface Props {
 
 export const ArticlePreview: React.FC<Props> = ({title, description, readMoreLink, image} : Props) => {
     return (
-        <section className='px-3'>
+        <section className='px-3 mb-4'>
             {image}            
             <h4 className={`pt-8 pb-4 font-semibold text-base font-primary`}>{title}</h4>
             <p className={`pb-6 font-light font-primary leading-7`}>
